@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Face Mask Detection</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Face Mask Detection Live</h1>
+      <div class="card mx-auto text-center" style="width: 50%; font-size: 17px;">
+          <h3>Welcome !</h3>
+          <p>
+            This website was developed as part of the Data Mining module project taught by 
+            <a style="text-decoration: none;" href="https://www.diegopeluffo.com" target="_blank">Diego PELUFFO</a>. 
+            The project is specialized in Real Time Mask Detection For Preventingthe Spread of COVID-19. 
+            In other words, it detects if an individual correctly wears a face mask or not. This aims to protect our community from COVID-19.
+          </p>
+          <hr />
+          <a class="btn btn-success" href="{% url 'predict' %}">START</a>
+      </div>
+      <p class="text-center mt-3">
+        &copy; 
+        <a href="https://pierjos-colere-website.web.app" target="_blank">Pierjos COLERE</a>, 2021
+      </p>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
